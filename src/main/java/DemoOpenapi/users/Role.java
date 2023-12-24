@@ -11,8 +11,18 @@ import java.util.Set;
 @Getter
 @RequiredArgsConstructor
 public enum Role {
-    USER(Collections.emptySet()),
+    USER(Set.of(
+            Permission.USER_READ
+    )),
+    MANAGER(Set.of(
+            Permission.USER_READ,
+            Permission.MANAGER_READ,
+            Permission.MANAGER_CREATE,
+            Permission.MANAGER_UPDATE,
+            Permission.MANAGER_DELETE
+    )),
     ADMIN(Set.of(
+            Permission.USER_READ,
             Permission.ADMIN_READ,
             Permission.ADMIN_CREATE,
             Permission.ADMIN_UPDATE,
