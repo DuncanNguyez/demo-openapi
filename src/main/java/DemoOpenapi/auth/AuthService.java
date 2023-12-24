@@ -1,7 +1,7 @@
 package DemoOpenapi.auth;
 
-import DemoOpenapi.Token.Token;
-import DemoOpenapi.Token.TokenRepository;
+import DemoOpenapi.token.Token;
+import DemoOpenapi.token.TokenRepository;
 import DemoOpenapi.jwts.JwtService;
 import DemoOpenapi.users.User;
 import DemoOpenapi.users.UserRepository;

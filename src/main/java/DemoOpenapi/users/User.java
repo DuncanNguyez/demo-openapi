@@ -1,6 +1,6 @@
 package DemoOpenapi.users;
 
-import DemoOpenapi.Token.Token;
+import DemoOpenapi.token.Token;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;

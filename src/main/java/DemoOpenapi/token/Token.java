@@ -1,4 +1,4 @@
-package DemoOpenapi.Token;
+package DemoOpenapi.token;
 
 import DemoOpenapi.users.User;
 import jakarta.persistence.*;
